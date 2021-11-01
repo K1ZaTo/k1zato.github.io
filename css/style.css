@@ -1,10 +1,8 @@
-* {
-	box-sizing: border-box;
-}
-
+* {box-sizing: border-box;}
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
-	color: #333;
+	margin:0;
+	background-color: #364ba8;
+    background-image: url("images/pacific-beach.JPG");
 }
 
 a {
@@ -22,26 +20,36 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: BlanchedAlmond;
+	background-color: #FFFFF6;
+	background: rgb(121,9,9);
+	background: linear-gradient(90deg, rgb(143, 0, 0) 0%, rgba(255, 0, 0, 0.166) 100%);
+
+	color: white;
 	min-height: 100px;
-	margin-top: 60px;
-	background-image: url("../images/stars.jpeg");
+	margin-top: 60px;;
+
+	font-family: hypatia-sans-pro,sans-serif;
+	font-weight: 200;
+	font-size: 100px;
+	font-style: italic;
+	font-variant: small-caps;
 }
 
 header h1 {
+	margin-left: -15%;
 	padding: 40px 60px;
-	font-size: 48px;
 }
 
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { background-color: #10128f; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
 }
-nav li { padding: 10px 10px; }
+nav li { 
+	padding: 10px 10px;
+}
 nav a { color: BlanchedAlmond; }
 nav a:hover { color: white; }
 
@@ -54,11 +62,14 @@ main {
 }
 
 section {
+	font-family: serif;
 	padding: 40px 60px;
 }
 
 section ul, aside ul {
-	list-style-type: square;
+	line-height: 45px;
+	font-size:32px;
+	list-style-type: none;
 	margin-top: 20px; 
 	margin-left: 30px;
 	margin-bottom: 40px;
@@ -73,5 +84,6 @@ footer {
 	background-color: #000;
 	color: white;
 	text-align: center;
+	background: linear-gradient(90deg, rgb(143, 0, 0) 0%, rgba(255, 0, 0, 0.166) 100%);
  }
  footer p { padding: 20px; }
